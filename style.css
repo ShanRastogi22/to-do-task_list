@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 124, 77);
+}
+.box{
+    width: 700px;
+    min-height: 500px;
+    background-color: rgb(142, 142, 255);
+    border-radius: 5px;
+    padding: 15px;
+}
+#item{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    display: block;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px grey;
+}
+#task_list{
+    margin-top: 20px;
+    list-style: none;
+}
+#task_list li {
+    position: relative;
+    background-color: #c90678;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 2px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 10px;
+    user-select: none;
+    text-shadow: #e18f0c;
+}
+#task_list li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.done {
+    text-decoration: line-through;
+    color: #e18f0c;
+    background-color: #4ef369 !important;
+}
+
